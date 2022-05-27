@@ -1,0 +1,17 @@
+serviceName: Mikro
+repositoryFieldCase: camel
+cache: system
+cacheDir: /var/www/cache
+consumersNameSpaces:
+  - Service\Consumer
+controllersNameSpaces:
+  - Service\Controller
+modelsNameSpaces:
+  - Service\Model
+publishersNameSpaces:
+  - Service\Publisher
+repositoriesNameSpaces:
+  - Service\Repository
+hateoasYamlDirsPaths:
+ - prefix: \Service
+   dirPath: ./hateoas

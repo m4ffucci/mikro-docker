@@ -1,0 +1,14 @@
+{
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "m4ffucci/mikro": "^1.0.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "php-amqplib/php-amqplib": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+        "Service\\": "src"
+    }
+  }
+}
